@@ -1,0 +1,202 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+
+
+nav{
+    width: 100%; height: 100px;
+  
+    display: flex; color: white;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+  
+}
+
+/* .logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+} */
+
+.menu{
+    width: 50%; height: 100px;
+  
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu ul li:hover{
+    color: burlywood;
+}
+
+
+section{ display: flex;  }
+
+.leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px;}
+
+.leftside img{
+      width: 600px;
+       height: 400px;
+     }
+
+
+
+.rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+
+.rightside h1{ text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase; } 
+
+.rightside p {  
+    font-size: 1.1rem; padding: 20px 0; }
+
+.rightside button{   font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 30px ; 
+    cursor: pointer;
+    height: 60px;
+    text-align: center;
+}
+
+
+
+.rightside button:hover{
+      background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+}
+
+
+
+.form-group input{
+    font-family: 'Baloo Bhai 2';
+    text-align: center;
+    display: block;
+    width: 40%;
+    height: 20px;
+    padding:1px ;
+    margin: auto;
+    /* border: 2px solid black  ; */
+    background-color: rgb(202, 199, 199);   
+   
+}
+
+#our-clients{
+  
+    width: 1270px;
+    height: 500px;
+    /* background-color: rgb(95, 165, 165); */
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #589188 , #a4b8d4 ); 
+}
+
+.box60{
+   
+    width: 469px;
+    height: 100px;
+    padding: 5px 20px;
+    margin: 14px;
+    border-radius: 19px;
+    justify-content: right;
+    position: relative;
+     right: 420px;
+    top: 100px;
+}
+
+.box61{
+  
+    width: 469px;
+    height: 100px;
+    padding: 5px 20px;
+    margin: 14px;
+    border-radius: 19px;
+    position: relative;
+    left: 175px;
+   bottom: 250px;
+}
+
+.iconss1{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss2{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss3{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss4{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss5{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+.iconss6{
+    position: relative;
+    left: 140px;
+    bottom: 80px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+footer{
+    background: black;
+    color: white;
+    padding: 5px 12px;
+}
+
+.center{
+    text-align: center;
+}
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.h-primary{
+    font-size: 2.3rem;
+    padding: 12px;
+    position: relative;
+    left: 32%;
+    top: 10px;
+}
